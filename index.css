@@ -2,7 +2,7 @@
 1. CSS VARIABLES & RESET
 ========================================================================== */
 :root {
---bg-primary: #0d0d0d;
+--bg-primary: #121212;
 --bg-secondary: #141414;
 --bg-card: rgba(255, 255, 255, 0.03);
 --bg-glass: rgba(20, 20, 20, 0.65);
