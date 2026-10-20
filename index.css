@@ -2,7 +2,7 @@
 1. CSS VARIABLES & RESET
 ========================================================================== */
 :root {
---bg-primary: #ffeb3b;
+--bg-primary: #0d0d0d;
 --bg-secondary: #141414;
 --bg-card: rgba(255, 255, 255, 0.03);
 --bg-glass: rgba(20, 20, 20, 0.65);
@@ -998,39 +998,3 @@ to { opacity: 1; transform: translateY(0); }
     display: none;
 }
 
-.footer-grid {
-    grid-template-columns: 1fr 1fr;
-}
-
-.modal-container {
-    grid-template-columns: 1fr;
-}
-
-.modal-img-wrap {
-    height: 300px;
-}
-}
-
-@media (max-width: 768px) {
-.nav-links {
-    display: none;
-}
-
-.hamburger {
-    display: flex;
-}
-
-.hero-title {
-    font-size: 2.5rem;
-}
-
-.footer-grid {
-    grid-template-columns: 1fr;
-}
-
-.footer-bottom {
-    flex-direction: column;
-    gap: 16px;
-    text-align: center;
-}
-}
